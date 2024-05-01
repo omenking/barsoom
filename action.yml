@@ -1,0 +1,13 @@
+name: 'Hello World'
+description: 'Greet someone and record the time'
+inputs:
+  name:  # id of input
+    description: 'Name'
+    required: true
+    default: 'Barsoom'
+outputs:
+  greeting:
+    description: 'How we greeted you'
+runs:
+  using: 'node20'
+  main: 'index.js'
